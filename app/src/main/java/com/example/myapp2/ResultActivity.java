@@ -17,6 +17,6 @@ public class ResultActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         Float imc = intent.getFloatExtra("imcresult",0);
-        textViewResult.setText(imc.toString());
+        textViewResult.setText("IMC = " + imc.toString());
     }
 }
